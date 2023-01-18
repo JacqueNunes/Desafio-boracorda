@@ -1,0 +1,97 @@
+:root{
+    --bg-color:#D9CDF7;
+    --text-color: #271A45;
+}
+
+body *{
+    color: var(--text-color);
+    line-height: 100%;
+}
+
+body {
+    background-color: var(--bg-color);  
+    font-family: 'Crimson Pro', 'Lato', sans-serif, serif;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+   
+}
+
+.presentation{
+    position: relative;
+}
+
+.presentation button{
+    position: absolute;
+    right: 0;   
+}
+
+#btn-360, #btn-close{
+    border: none;
+    background:  transparent;
+    cursor: pointer;
+}
+
+#btn-close, #animated{
+    display: none;
+}
+
+.codigo {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 10px;
+    margin-bottom: 12px;    
+}
+
+.descricao h1 {
+    font-family: 'Crimson Pro';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.price {
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-top: 12px;
+    opacity: 0.67;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #271A45;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 160px;
+    height: 32px;
+    padding: 8px 16px;
+}
+
+.car button {
+    background: transparent;
+    border: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+html.animated #btn-360,
+html.animated #static {
+    display: none;
+}
+
+html.animated #btn-close,
+html.animated #animated{
+    display: initial;
+}

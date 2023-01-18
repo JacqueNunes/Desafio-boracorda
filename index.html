@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="animated">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+
+    <link rel="shortcut icon" href="./src/image/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="presentation">
+            <button id="btn-360" onclick="toggle()">
+                <img src="./src/image/spin.svg" alt="clique nesse botao para animar o sofa">
+            </button>
+            <button id="btn-close" onclick="toggle()">
+                <img src="./src/image/close.svg" alt="parar de animar o sofa">
+            </button>
+            
+            <div class="sofa">
+                <img id="static" src="./src/image/sofá-margot.png" alt="">
+                <img id="animated" src="./src/image/sofa-360.gif" alt="">
+            </div>
+        </div>
+
+        <div class="description">
+            <p class="codigo">CÓDIGO: 42404</p>
+            <h1>Sofá Margot II - Rosé</h1>
+            <p class="price">R$ 4.000 </p>
+            <div class="car">
+                <button>ADICIONAR À CESTA</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
