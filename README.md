@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O "Sofa Card Page" é um projeto desenvolvido como desafio #2 no boraCodar da Rocketseat. O projeto consiste em uma página de venda com um sofá Margot II - Rosé, onde a página exibe um botão de view 360º para analisar melhor os detalhes do sofá.
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]()
+Você pode visualizar o layout do projeto através [DESSE LINK](https://jacquenunes.github.io/sofa-card-page/)
 
 ## Licença
 
