@@ -1,0 +1,31 @@
+@media (max-width: 1024px){
+    .card{
+        flex-direction: column;
+                  
+    }
+}
+
+@media (max-width: 500px){
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        width: 85%;            
+    }
+    .presentation{
+        margin: 25px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        flex-direction: column;
+        justify-content: center;     
+    }
+    #static{
+        width: 360px;
+    }
+    #animated{
+        width: 360px;
+    }
+}
+
